@@ -1,0 +1,72 @@
+Algoritmo _menu_de_hotel
+
+	Repetir
+        Escribir "Introdusca el numero de su ficha de reservacion"
+        Leer clave
+        Si clave <> 1014 Entonces
+            Escribir "hola buenas tardes"
+        FinSi
+    Hasta Que clave=1014
+	Escribir "Bienvenido al menu digital del Hotel buena vista, que le podemos ofrecer segun nuestro menu?"
+	Escribir " 1- Comida"
+	Escribir " 2- Limpieza"
+	Escribir " 3- Problema tecnico en la habitacion"
+	Escribir " 4- Quejas"
+	leer numer
+	Segun numer  Hacer
+		1:
+			Escribir "El dia de hoy le podemos ofrecer"
+			Escribir "Opcion 1- Desayunos (huevos al gusto) "
+			Escribir "Opcion 2- quesadillas"
+			Escribir "Opcion 3- Servicios de cualquier restaurant con servicios de rappi"
+			Escribir "Escriba el numero de la opcion que desea seleccionar"
+			leer op
+			Segun op Hacer
+				1:
+					Escribir "Escriba como sera de preferencia su pedido"
+					leer pedido
+					Escribir "Su pedido  llegara en un momento"
+				2:
+					Escribir "Escriba como sera de preferencia su pedido"
+					leer pedido
+					Escribir "Su pedido llegara  en un momento"
+				3:
+					Escribir "Escriba como sera de preferencia su pedido"
+					leer pedido
+					Escribir "Su pedido llegara en un momento"
+				De Otro Modo:
+					Escribir "esta opcion no es valida, intente de nuevo"
+			Fin Segun
+		2:
+			Escribir "En un momento se le mandara a alguien para hacer la limpieza de la habitacion, si gusta puede pasar al lobby o al restaurante"
+		3:
+			Escribir "En un momento se le mandara a alguien para dar su mantenimiento"
+		4:
+			Escribir "A quien va dirijida su queja?"
+			Escribir " 1- personal del lugar"
+			Escribir " 2- ruidos o problemas con los demas huespedes"
+			escribir " 3- problemas de salud"
+			
+			leer queja
+			Segun queja  Hacer
+				1:
+					Escribir "Escriba su queja"
+					leer mensaje
+					Escribir "Gracias por  informarnos lo solucionaremos lo mas pronto posible"
+				2:
+					Escribir "Escriba su queja"
+					leer mensaje
+					Escribir "Gracias por imformarnos, los solucionaremos lo mas pronto  posible"
+					
+			    3:  escribir " escriba su queja"
+					leer mensaje
+					escribir " no se preocupe en un momento acudira un medico con usted"
+				De Otro Modo:
+					escribir "esta opcion no es valida, intente de nuevo"
+			Fin Segun
+			
+		De Otro Modo:
+			Escribir  "esta opcion no es valida, intente de nuevo"
+	Fin Segun
+	
+FinAlgoritmo
